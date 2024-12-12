@@ -1,0 +1,14 @@
+{
+  "name": "advent_of_code_2024",
+  "version": "1.0.0",
+  "description": "the advent of code for 2024",
+  "main": "day1/index.js",
+  "type": "module",
+  "scripts": {
+    "lib": "node lib/parser.js",
+    "day1": "node day1/index.js",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
