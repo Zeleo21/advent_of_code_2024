@@ -8,6 +8,7 @@
     "lib": "node lib/parser.js",
     "day1": "node day1/index.js",
     "day2": "node day2/index.js",
+    "day3": "node day3/index.js",
     "test": "test"
   },
   "author": "",

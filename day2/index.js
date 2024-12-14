@@ -42,7 +42,7 @@ const validateReport = (line, isStep1) => {
     return isValidReport(reportArray, isStep1)
 }
 
-function day1_step1(lines) {
+function day2_step1(lines) {
     let validReport = 0;
     for(const line of lines) {
         validReport += validateReport(line, true);
@@ -51,7 +51,7 @@ function day1_step1(lines) {
 }
 
 
-function day1_step2(lines) {
+function day2_step2(lines) {
     let validReport = 0;
     for(const line of lines) {
         validReport += validateReport(line,false)
@@ -60,8 +60,8 @@ function day1_step2(lines) {
 }
 async function main() {
     const lines = await parser.readLines(path.join(parser.__dirname, '../day2/input.txt'));
-    day1_step1(lines);
-    day1_step2(lines);
+    day2_step1(lines);
+    day2_step2(lines);
 }
 
 
